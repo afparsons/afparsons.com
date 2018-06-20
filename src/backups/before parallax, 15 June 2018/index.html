@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Andrew Parsons</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/parallax.css">
+    <link rel="stylesheet" type="text/css"
+      media="screen and (max-width: 800px)"
+      href="./css/mobile.css">
+    <link rel="stylesheet" type="text/css"
+      media="screen and (max-width: 800px) and (max-aspect-ratio: 1/1)"
+      href="./css/mobile.css">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400i,700|Hind:400,700&amp;subset=latin-ext" rel="stylesheet">
+    <script src="https://use.fontawesome.com/d270df8d0d.js"></script>
+    <script src="./scripts/functions.js"></script>
+  </head>
+  <body>
+
+  <div id="navbar">
+    <a href="#id_projects" id="id_nav_1">THINGS I DO</a>
+    <a href="#id_about" id="id_nav_2">THINGS I'VE DONE</a>
+    <a href="#id_stuff" id="id_nav_3">MISC</a>
+    <a href="#id_contact" id="id_nav_4">EMAIL+LINKEDIN</a>
+    <!-- <a href="http://translate.google.com" id="id_nav_4">EN</a> -->
+  </div>
+
+<div class="container">
+
+  <div class="parallax">
+    <!-- <div class="globe"> -->
+      <img id="globe" src="./map_sq_gray_min.svg" alt="parallax globe" onclick="growGlobe()">
+    <!-- </div> -->
+  </div>
+
+  <div class='content' id='one'>
+  <div class="greetings">
+    <div class='greeting_name' id='id_greeting_name'>
+      <h1><span id="span_greeting_hi">Hi, I'm </span><span id="span_greeting_name">Andrew Parsons,</span></h1>
+    </div>
+    <div class='greeting_desc' id='id_greeting_desc'>
+      <h1><span id="span_greeting_desc">a technologist with interest <br class="br">in
+        <a class="greeting_link" id="id_link_law" href="#id_projects">law</a> and
+        <a class="greeting_link" id="id_link_lang" href="#id_projects">language</a>.
+      </span>
+
+      <span id="span_greeting_desc_mobile">a technologist interested in
+        <a class="greeting_link" id="id_link_law" href="#id_projects">law</a> and
+        <a class="greeting_link" id="id_link_lang" href="#id_projects">language</a>.
+      </span>
+
+    </h1>
+      <a class="arrow_link" id="id_link_arrow" href="#id_projects">→</a>
+    </div>
+    <!-- <div class='greeting_desc' id='id_greeting_desc'>
+      <h1><span id="span_greeting_desc">a technologist with interest <br>in
+        <a class="greeting_link" id="id_link_law" href="#id_projects">law</a> and
+        <a class="greeting_link" id="id_link_lang" href="#id_projects">language</a>.
+      </h1>
+      <a class="arrow_link" id="id_link_arrow" href="#id_projects">→</a>
+    </div> -->
+  </div>
+  </div>
+
+  <div class='content' id='two'>
+    <div class="projects" id="id_projects">
+      <a href="#id_projects"><h2>PROJECTS</h2></a>
+    </div>
+    <div class="projects_body">
+      <div class="projects_row">
+      <h3><a href="http://google.com" class="project_link">Etynet</a></h3>
+      <p class="project_desc">is an interactive etymological wordnet built in
+      React and using D3.js for graph visualizations. <br> Users can search the Neo4j
+      graph database to reveal the etymological origins of their queried word. Backend in Node.js.</p>
+      </div>
+
+      <div class="projects_row">
+      <h3><a href="http://google.com" class="project_link">Etynet</a></h3>
+      <a href="http://google.com" class="projects_github_link"><i class="fa fa-link" aria-hidden="true"></i> Demo</a>
+      <a href="http://google.com"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a>
+      <br><p class="project_desc">Search and explore an etymological wordnet<br></p><p class="tech">React, D3.js, Neo4j, Node.js</p>
+      </div>
+
+      <div class="projects_row">
+      <h3 style="font-family: 'Hind'">Etynet</h3>
+      <a href="http://google.com"><i class="fa fa-link" aria-hidden="true"></i> Demo</a>
+      <a href="http://google.com"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a>
+      <br><p class="project_desc">Search and explore an etymological wordnet</p><p class="tech">React, D3.js, Neo4j, Node.js</p>
+      </div>
+    </div>
+  </div>
+
+  <div class='content' id='three'>
+    <div class="about" id="id_about">
+      <a href="#id_about"><h2>ABOUT ME</h2></a>
+    </div>
+  </div>
+
+  <div class='content' id='four'>
+    <div class="stuff" id="id_stuff">
+      <a href="#id_stuff"><h2>MISC STUFF</h2></a>
+    </div>
+  </div>
+
+  <div class='content' id='five'>
+    <div class="contact" id="id_contact">
+      <h2><span id="span_contact_h2">LET'S GET <br>IN TOUCH</span>
+          <span id="span_contact_h2_mobile">LET'S GET IN TOUCH</span>
+      </h2>
+      <span id="span_contact_i">
+        <a href="mailto:parsonsandrew1@gmail.com"><i class="fa fa-envelope-o fa-5x" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/andrewfparsons/"><i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i></a>
+        <a href="http://google.com"><i class="fa fa-file-text-o fa-5x" aria-hidden="true"></i></a>
+      </span>
+      <span id="span_contact_i_mobile">
+        <i class="fa fa-envelope-o fa-3x" aria-hidden="true"></i>
+        <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
+        <i class="fa fa-file-text-o fa-3x" aria-hidden="true"></i>
+      </span>
+    </div>
+  </div>
+
+</div> <!-- END CONTAINER -->
+
+  </body>
+</html>

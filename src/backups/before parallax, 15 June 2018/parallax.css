@@ -1,0 +1,68 @@
+/* parallax CSS */
+
+.content {
+  /* height: 100%;
+  min-height: 100%; /*for mozilla*/ */
+  /* z-index: 0;
+  height: 100vh;
+  perspective: 1px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  transform: translateZ(-0px); */
+}
+
+/* https://keithclark.co.uk/articles/pure-css-parallax-websites/ */
+/* http://www.sanwebcorner.com/2018/02/how-to-set-different-scroll-speed-for.html */
+/* http://www.webtutorialplus.com/parallax-scrolling-effect-with-jquery/ */
+
+/* .container {
+  position: relative;
+  height: 100vh;
+  transform-style: preserve-3d;
+} */
+
+/* .parallax {
+  z-index: 1;
+  bottom: -55%;
+  right: -11%;
+  position: absolute;
+  transform: translateZ(-1px);
+  transition: 1s;
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+}
+
+#globe {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: scale(0.55);
+  transition: 2s;
+  margin: 0;
+  padding: 0;
+} */
+
+.parallax {
+  position: absolute;
+  bottom: -24vmin;
+  right: 10vmin;
+  height: 76vmin;
+  z-index: 1;
+}
+
+/* .globe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateZ(0);
+} */
+
+#globe {
+  /* transform: scale(0.55); */
+  max-width: 100%;
+  max-height: 100%;
+}
