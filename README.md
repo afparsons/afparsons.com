@@ -12,6 +12,7 @@
 | Fix navbar hide | *complete* |
 | Fix contact links | *complete* |
 | Set content pane top to match previous h2 bottom | *complete* |
+| Add ever-so-slight `box-shadow` | *complete* |
 | Mobile version | working on it... |
 | "Projects" pane | working on it... |
 | "About" pane | not started |

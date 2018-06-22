@@ -21,4 +21,7 @@ https://alligator.io/css/pure-css-parallax/
 #globe {
   max-width: 100%;
   max-height: 100%;
+  /* Use -webkit- only if supporting: Chrome < 54, iOS < 9.3, Android < 4.4.4 */
+  -webkit-filter: drop-shadow( -5px -5px 5px #000 );
+  filter: drop-shadow( 0px 5px 24px rgba(50,50,50,0.2) );
 }
