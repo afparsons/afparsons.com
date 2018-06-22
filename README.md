@@ -11,11 +11,13 @@
 | Implement parallax | *complete* |
 | Fix navbar hide | *complete* |
 | Fix contact links | *complete* |
-| Fix Firefox scroll overflow | pending |
-| Responsive scaling | pending |
+| Set content pane top to match previous h2 bottom | *complete* |
 | Mobile version | working on it... |
 | "Projects" pane | working on it... |
 | "About" pane | not started |
 | "Misc" pane | not started |
 | `gzip` | not started |
+| Fix Firefox scroll overflow | pending |
+| Responsive scaling | pending |
 | `window.onscroll` alternative | pending |
+| optimization | pending |

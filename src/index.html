@@ -13,7 +13,7 @@
       media="screen and (max-width: 800px) and (max-aspect-ratio: 1/1)"
       href="./css/mobile.css">
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400i,700|Hind:400,700&amp;subset=latin-ext" rel="stylesheet">
-    <script src="https://use.fontawesome.com/d270df8d0d.js"></script>
+    <script defer src="https://use.fontawesome.com/d270df8d0d.js"></script>
     <script src="./scripts/functions.js"></script>
   </head>
   <body id="body">
@@ -26,7 +26,7 @@
     <!-- <a href="http://translate.google.com" id="id_nav_4">EN</a> -->
   </div>
 
-<div class="container" id="cont" onscroll="navbarFunctions()">
+<div class="container" id="cont" onscroll="scrollFunctions()">
 
   <div class="parallax">
     <!-- <div class="globe"> -->
@@ -51,7 +51,10 @@
       </span>
 
     </h1>
+      <!-- Two types of arrows: Unicode and CSS. -->
+      <!-- <p class="arrow_tail" id="id_tail_arrow">⎼</p> -->
       <a class="arrow_link" id="id_link_arrow" href="#id_projects">→</a>
+      <!-- <a class="arrow" id="id_arrow" href="#id_projects"></a> -->
     </div>
     <!-- <div class='greeting_desc' id='id_greeting_desc'>
       <h1><span id="span_greeting_desc">a technologist with interest <br>in
@@ -65,7 +68,7 @@
 
   <div class='content' id='two'>
     <div class="projects" id="id_projects">
-      <a href="#id_projects"><h2>PROJECTS</h2></a>
+      <a href="#id_projects" id="id_projects_a_h2"><h2>PROJECTS</h2></a>
     </div>
     <div class="projects_body">
       <div class="projects_row">
